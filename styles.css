@@ -1,0 +1,13 @@
+.flex {
+    display: flex;
+}
+
+.header {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.gridoption {
+    
+}
