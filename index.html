@@ -10,16 +10,27 @@
 <body>
     <div class="header flex">
         <h1 class="title flex">Etch-a-Sketch</h1>
-        <div class="gridoption">
-            <div class="slider">
-                <p>Grid Size:</p>
-                <input type="range" min="16" max="100" value="16" id="gridslider">
+        <div class="selectors">
+            <div class="gridoption">
+                <div class="slider">
+                    <p>Grid Size:</p>
+                    <input type="range" min="16" max="100" value="16" id="gridslider">
+                </div>
+                <div id="gridnumber">
+                </div>
             </div>
-            <div id="gridnumber">
+
+            <div class="colouroption">
+                <p>Grid Colouring:</p>
+                <form>
+                    <input type="radio" id="normal" name="colouroption" value="normal" checked>Normal<br>
+                    <input type="radio" id="rgb" name="colouroption" value="rgb">RGB<br>
+                </form>
             </div>
-        </div>
-        <div class="colouroption">
-            
+
+            <div class="clear flex">
+                <button type="button">Clear</button>
+            </div>
         </div>
     </div>
 

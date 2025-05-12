@@ -1,3 +1,13 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .flex {
     display: flex;
 }
@@ -5,4 +15,36 @@
 .header {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.selectors {
+  display: flex;
+  gap: 10rem; /* adds spacing between children */
+}
+
+.container {
+    width: 700px;
+    height: 00px;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    flex: 1;
+    aspect-ratio: 1 / 1;
+    border: 1px solid #d3d3d3;
+}
+
+.clear {
+    align-items: center;
+}
+
+button {
+    padding: 20px;
+    border-radius: 10px;
 }
